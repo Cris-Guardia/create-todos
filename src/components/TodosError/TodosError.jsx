@@ -3,8 +3,8 @@ import './TodosError.css';
 
 function TodosError(){
     return(
-        <p>La aplicacion colapso, es el apocalipsis
-            ahhhhhhhhhhhhhhhhhhhh!!!!!!!!!
+        <p className='errorMessage'>
+            La aplicacion tuvo un error :c
         </p>
     );
 }  

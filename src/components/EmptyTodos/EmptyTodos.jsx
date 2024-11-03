@@ -3,7 +3,9 @@ import './EmptyTodos.css';
 
 function EmptyTodos(){
     return(
-        <p>No hay todos, escribase uno ahí</p>
+        <p className='emptyMessage'>
+            No hay todos, crea uno c:
+        </p>
     );
 }  
 
