@@ -1,0 +1,79 @@
+form{
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+form *{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+form label {
+    width: 80%;
+    text-align: center;
+}
+
+textarea{
+    width: 80%;
+    min-height: 50px;
+    border: none;
+    box-shadow:   -5px 0 0 0 #f9f9f9,
+    5px 0 0 0 #f9f9f9,
+    0 -5px 0 0 #f9f9f9,
+    0 5px 0 0 #f9f9f9;
+}
+
+.TodoForm-buttonContainer{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.TodoForm-button{
+    width: 120px;
+    height: 50px;
+    border: none;
+}
+
+.TodoForm-button-create{
+    box-shadow:   -5px 0 0 0 #0eeeee,
+    5px 0 0 0 #0eeeee,
+    0 -5px 0 0 #0eeeee,
+    0 5px 0 0 #0eeeee;
+    background-color: #0eeeee;
+}
+.TodoForm-button-create:hover{
+    color: #0eeeee;
+    background-color: #222;
+}
+
+.TodoForm-button-cancel{
+    box-shadow:   -5px 0 0 0 #f9f9f9,
+    5px 0 0 0 #f9f9f9,
+    0 -5px 0 0 #f9f9f9,
+    0 5px 0 0 #f9f9f9;
+    background-color: #f9f9f9;
+}
+
+.TodoForm-button-cancel:hover{
+    color: #f9f9f9;
+    background-color: #222;
+}
+
+@media (max-width: 480px) {
+    .TodoForm-button{
+        width: 100px;
+        height: 50px;
+        border: none;
+        font-size: 0.5em;
+    }
+    
+    textarea{
+        width: 200px;
+    }
+}

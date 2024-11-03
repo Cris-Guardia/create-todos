@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.CreateTodoButton{
+    width: 150px;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    padding: 20px;
+    cursor: pointer;
+    
+    align-self: flex-end;
+    
+    border: none;
+    box-shadow:   -5px 0 0 0 #0eeeee,
+    5px 0 0 0 #0eeeee,
+    0 -5px 0 0 #0eeeee,
+    0 5px 0 0 #0eeeee;
+    background-color: #0eeeee;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+.CreateTodoButton:hover{
+    color: #0eeeee;
+    background-color: #222;
+}

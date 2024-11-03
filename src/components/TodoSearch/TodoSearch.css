@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+input{
+    width: 50%;
+    height: 50px;
+
+    align-self: center;
+    border: none;
+
+    color: #222;
+    box-shadow:   -5px 0 0 0 #f9f9f9,
+    5px 0 0 0 #f9f9f9,
+    0 -5px 0 0 #f9f9f9,
+    0 5px 0 0 #f9f9f9;    
+    
+    font-family: 'Press Start 2P', system-ui;
+}
+
+input:hover{
+    width: 55%;
+}
+
+input:focus{
+    width: 55%;
+    animation-name: parpadeo;
+    animation-duration: 2s;
+
+    outline: none;
+}
